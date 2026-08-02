@@ -1,0 +1,16 @@
+// NOT logical operator
+let temp=-15;
+let sunny=true
+if(!(temp>0)){
+    console.log('its cold outside')
+}
+else{
+    console.log('its warm outside')
+}
+if(!sunny==true){
+    console.log('its sunny outside')
+
+}
+else{
+    console.log('its cloudy outside')
+}
