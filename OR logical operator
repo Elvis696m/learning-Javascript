@@ -1,4 +1,4 @@
-//either condition can be true
+
 let temp =100;
 
 if(temp<= 0 || temp>= 30){
