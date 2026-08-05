@@ -1,24 +1,15 @@
-let grade = 'A';
-switch(grade){
-    case 'A':
-        console.log('Excellent!');
-        break;
-    case'B':
-        console.log('V.Good!');
-        break;
-    case 'C':
-        console.log('Good!');
-         break;
-    case'D':
-        console.log('Pull up your socks!');
-        break;
-    case'F':
-        console.log('You failed!')
-        break;
-    default:
-        console.log('Incomplete course') 
+const { execSync } = require('child_process');
 
-
+function run(cmd) {
+  console.log(`> ${cmd}`);
+  execSync(cmd, { stdio: 'inherit' });
 }
-    
 
+try {
+  run('git add .');
+  run('git commit -m "update"');
+  run('git push');
+  console.log('✅ Done — pushed to GitHub!');
+} catch (err) {
+  console.error('❌ Something went wrong:', err.message);
+}
