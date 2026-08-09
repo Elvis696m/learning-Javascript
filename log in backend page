@@ -1,0 +1,12 @@
+let username = "Elvis";
+let password = "1234";
+
+let enteredUsername = "Elvis";
+let enteredPassword = "1234";
+
+if (enteredUsername === username && enteredPassword === password) {
+    console.log("Login successful!");
+    console.log("Welcome back, " + username);
+} else {
+    console.log("Invalid username or password.");
+}
