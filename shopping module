@@ -1,0 +1,7 @@
+let username='Elvis'
+let items=5
+let total=75
+
+console.log('Hello',username)
+console.log('You have', items, 'items in your cart')
+console.log('Your total is $' , total)
