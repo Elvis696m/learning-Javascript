@@ -1,15 +1,17 @@
-const { execSync } = require('child_process');
+const answer = Math.floor(Math.random()*10 + 1)
+let guesses = 0
 
-function run(cmd) {
-  console.log(`> ${cmd}`);
-  execSync(cmd, { stdio: 'inherit' });
+document.getElementById('submitButton').onclick = function(){
+
+ let guess = document.getElementById('guessField').value
+guesses+=1
+if(guess == answer){
+    alert('${answer} is the #.IT took you ${guesses} guesses')
 }
-
-try {
-  run('git add .');
-  run('git commit -m "update"');
-  run('git push');
-  console.log('✅ Done — pushed to GitHub!');
-} catch (err) {
-  console.error('❌ Something went wrong:', err.message);
+else if(guess<answer){
+    alert('Too small!')
+}
+else{
+    alert('Too large!')
+}
 }
