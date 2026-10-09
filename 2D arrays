@@ -1,0 +1,5 @@
+let vegetables = ['cabbages','tomatoes','onions','mangos','carrots'];
+let fruits = ['apples','mangos','bananas','watermelons','grapes'];
+let meats = ['eggs','pork','beef','chicken'];
+
+let groceryList = [fruits,vegetables,meats];
