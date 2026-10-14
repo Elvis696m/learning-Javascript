@@ -4,3 +4,8 @@ let numbers = [1,2,3,4,5,6,7,8,9];
 let maximum = math.max(...numbers);
 console.log(maximum);
 //it will print 9 since the number of elements in ''let numbers''are 9.
+*/example 2;
+let class 1 = ['squidward','patrick','mr.krabs'];
+let class 2 = ['plankton','sandy','spongebob'];
+class1.push(...class 2);
+console.log(...class1);
