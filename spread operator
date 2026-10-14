@@ -9,3 +9,4 @@ let class 1 = ['squidward','patrick','mr.krabs'];
 let class 2 = ['plankton','sandy','spongebob'];
 class1.push(...class 2);
 console.log(...class1);
+*/in this case,it will print all the names but in an arranged manner,
