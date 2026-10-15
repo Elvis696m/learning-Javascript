@@ -1,1 +1,10 @@
+let ages = [16,17,12,19,19,23,42,76];
+let adults = ages.filter(checkAge);
 
+adults.forEach(print);
+function checkAge (element){
+return element >=18;
+}
+function print(element){
+console.log(element);
+}
