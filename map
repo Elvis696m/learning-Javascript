@@ -1,1 +1,20 @@
+//map
 
+const store = new Map([
+    ['t-shirt', 200],
+    ['jeans', 800],
+    ['socks', 100],
+    ['hoodie', 300],
+    ['shorts', 300]
+])
+let shoppingCart = 0;
+
+ shoppingCart += store.get('t-shirt');
+ shoppingCart += store.get('hoodie');
+ console.log(shoppingCart);
+store.forEach((value, key) => console.log(`${key} ksh${value}`));
+
+//store.get('t-shirt');
+//store.set('hat', 40);
+//store.delete('hat');
+//console.log(store.has('hoodie'));
