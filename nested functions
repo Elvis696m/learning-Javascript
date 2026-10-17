@@ -1,1 +1,18 @@
+//nested functions
 
+let userName = 'Elvis';
+let userInbox = 0;
+ 
+displayUserName();
+displayUserInbox();
+
+function login(){
+  displayUserName();
+  displayUserInbox();  
+}
+function displayUserName(){
+    console.log(`Hello, welcome ${userName}`)
+}
+function displayUserInbox(){
+    console.log(`You have ${userInbox} new messages`)
+}
