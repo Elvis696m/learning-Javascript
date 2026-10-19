@@ -1,5 +1,4 @@
 //map
-
 const store = new Map([
     ['t-shirt', 200],
     ['jeans', 800],
