@@ -7,7 +7,6 @@ const store = new Map([
     ['shorts', 300]
 ])
 let shoppingCart = 0;
-
  shoppingCart += store.get('t-shirt');
  shoppingCart += store.get('hoodie');
  console.log(shoppingCart);
