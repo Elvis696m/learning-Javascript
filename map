@@ -18,3 +18,22 @@ store.forEach((value, key) => console.log(`${key} ksh${value}`));
 //store.set('hat', 40);
 //store.delete('hat');
 //console.log(store.has('hoodie'));
+
+// new practice
+//map.
+
+const store = new Map ([
+    ['t-shirt', 200],
+    ['dera', 400],
+    ['socks', 100],
+    ['hoodie', 180],
+    ['pillow', 300]
+])
+let shoppingCart = 0;
+shoppingCart += store.get('t-shirt');
+shoppingCart += store.get('hoodie');
+store.set('hat', 300)
+console.log('ksh', shoppingCart)
+
+store.delete('t-shirt');
+store.forEach((value, key) => console.log(`${key}, ksh${value}`));
