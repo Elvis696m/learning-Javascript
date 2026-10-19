@@ -19,7 +19,6 @@ store.forEach((value, key) => console.log(`${key} ksh${value}`));
 
 // new practice
 //map.
-
 const store = new Map ([
     ['t-shirt', 200],
     ['dera', 400],
