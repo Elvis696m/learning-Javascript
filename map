@@ -30,6 +30,5 @@ shoppingCart += store.get('t-shirt');
 shoppingCart += store.get('hoodie');
 store.set('hat', 300)
 console.log('ksh', shoppingCart)
-
 store.delete('t-shirt');
 store.forEach((value, key) => console.log(`${key}, ksh${value}`));
