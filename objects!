@@ -1,6 +1,6 @@
 //objects!
 
-const car = {
+const car1 = {
    model:'Tesla',
    color:'white',
    year:2026,
@@ -11,4 +11,10 @@ const car = {
     brake : function(){
     console.log('You are stopping the car!');
     },
+}
+
+const car2 ={
+    model:'Mustang',
+    color:'Red',
+    year:2023,
 }
