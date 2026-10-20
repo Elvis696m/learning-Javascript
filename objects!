@@ -1,1 +1,14 @@
+//objects!
 
+const car = {
+   model:'Tesla',
+   color:'white',
+   year:2026,
+
+    drive : function (){
+    console.log('You are driving a Tesla!');
+    },
+    brake : function(){
+    console.log('You are stopping the car!');
+    },
+}
