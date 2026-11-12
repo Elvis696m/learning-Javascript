@@ -9,8 +9,18 @@ class Car {
     get gas(){
         return `${this._gas}gallons (${this._gas/50*100}%)`;
     }
+    set gas(value){
+        if(value>50){
+            value=50
+        }
+        else if(value<0){
+         value=0
+        }
+        this._gas=value;
+    }
 }
 
 let car=new Car(400);
+car.gas=-100;
 console.log(car.gas);
 console.log(car.power);
