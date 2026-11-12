@@ -1,0 +1,16 @@
+class Car {
+    constructor(power) {
+        this._power = power;
+        this._gas = 50;
+    }
+    get power() {
+        return `${this._power}hp`;
+    }
+    get gas(){
+        return `${this._gas}gallons`;
+    }
+}
+
+let car=new Car(400);
+console.log(car.gas);
+console.log(car.power);
