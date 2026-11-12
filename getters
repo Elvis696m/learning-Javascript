@@ -1,13 +1,13 @@
 class Car {
     constructor(power) {
         this._power = power;
-        this._gas = 50;
+        this._gas = 5;
     }
     get power() {
         return `${this._power}hp`;
     }
     get gas(){
-        return `${this._gas}gallons`;
+        return `${this._gas}gallons (${this._gas/50*100}%)`;
     }
 }
 
