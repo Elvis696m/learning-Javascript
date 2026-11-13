@@ -1,0 +1,13 @@
+//setTimeOut()
+setTimeout(firstMessage, 3000)
+setTimeout(secondMessage, 8000)
+setTimeout(thirdMessage, 12000)
+function firstMessage() {
+    alert('please note that you will be driving this car manually! ')
+};
+function secondMessage() {
+    alert('please engage features like difflock to avoid getting stuck')
+};
+function thirdMessage() {
+    alert('GOOD LUCK WITH YOUR DRIVING. SEE YOU ON TOP!')
+};
