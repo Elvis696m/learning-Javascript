@@ -1,0 +1,13 @@
+//error
+//throw
+
+try {
+    let x = window.prompt('ENTER A NUMBER');
+    x = Number(x);
+    if (isNaN(x)) throw 'That was not a number!'
+    if (x == '') throw 'You did not enter a number!'
+}
+
+catch (error) {
+    console.log(error)
+}
