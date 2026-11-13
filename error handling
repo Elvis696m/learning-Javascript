@@ -1,4 +1,9 @@
-//error
+| Keyword | Purpose |
+|---|---|
+| `try` | Runs code that might produce an error. |
+| `catch` | Handles an error if one occurs. |
+| `throw` | Deliberately creates an error. |
+| `finally` | Runs whether an error occurred or not. |//error
 //throw
 
 try {
