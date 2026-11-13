@@ -1,0 +1,13 @@
+//setInterval
+
+let count = 10;
+let min = 0;
+//min = Number(min);
+const myTimer = setInterval(countDown, 1000);
+function countDown() {
+    count -= 1;
+    console.log(count);
+    if (count < min) {
+        clearInterval(myTimer);
+    };
+};
