@@ -1,0 +1,11 @@
+let canvas = document.getElementById('myCanvas');
+let context = canvas.getContext('2d');
+context.beginPath();
+
+context.moveTo(100, 0);
+context.lineTo(100, 500);
+
+context.strokeStyle = 'yellow';
+context.lineWidth = 10;
+
+context.stroke();
