@@ -10,3 +10,5 @@ const promise = new Promise((resolve, reject) =>{
         reject('File failed to upload! Please try again!');
     }
 });
+
+promise.then(value => console.log(value));
