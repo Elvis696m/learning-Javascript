@@ -1,0 +1,12 @@
+//promises
+
+const promise = new Promise((resolve, reject) =>{
+    let fileLoaded = true;
+
+    if (fileLoaded){
+        resolve('Success,file uploaded successfully!');
+    }
+    else{
+        reject('File failed to upload! Please try again!');
+    }
+});
