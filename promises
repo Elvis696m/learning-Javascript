@@ -1,7 +1,7 @@
 //promises
 
 const promise = new Promise((resolve, reject) =>{
-    let fileLoaded = true;
+    let fileLoaded = false;
 
     if (fileLoaded){
         resolve('Success,file uploaded successfully!');
@@ -11,4 +11,5 @@ const promise = new Promise((resolve, reject) =>{
     }
 });
 
-promise.then(value => console.log(value));
+promise.then(value => console.log(value)) 
+.catch(error=>console.log(error));
